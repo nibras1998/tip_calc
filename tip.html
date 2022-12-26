@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./tip.css" rel="stylesheet"/>
+</head>
+<body>
+    <h2>S P L I<BR>T T E R</h2>
+        <div id="container">
+            <div id="selection">
+                <h3>Bill</h3>
+                $ <input id="amount" type="Number"/>
+                <h3 id="seltip">Select Tip %</h3>
+                <div id="tipcon">
+                    <div class="sel" id="five">5%</div>
+                    <div class="sel" id="ten">10%</div>
+                    <div class="sel" id="fifteen">15%</div>
+                    <div class="sel" id="twentyfive">25%</div>
+                    <div class="sel" id="fifty">50%</div>
+                    <div class="sel2">Custom</div>
+                </div>
+                <h3 id="nums">Number of people</h3>
+                <input type="Number" id="numpeople"/>
+            </div>
+            <div id="output">
+                <div id="total">
+                    <h3 id="tipamt">Tip Amount<br><span>/ person</span></h3>
+                </div>
+                <div id="totdis">
+                    <h1 id="tipbill">$ 0.00</h1>
+                </div>
+                <div id="total2">
+                    <h3 id="tipamt">Total<br><span>/ person</span></h3>
+                </div>
+                <div id="totdis">
+                    <h1 id="totalbill">$ 0.00</h1>
+                </div>
+                <button id="reset">RESET</button>
+            </div>
+        </div>
+        <script src="./tip.js"></script>
+</body>
+</html>
